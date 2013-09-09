@@ -130,7 +130,7 @@ function lowercase()  # move filenames to lowercase
 
 # compile sass 
 # prerequisites: SASS gem; $gem install sass; MUST be in project $DIR
-alias watch="echo 'Watching /stylesheets/sass/*.scss and outputting to /stylesheets/*.css' && sass --watch stylesheets/sass:stylesheets" 
+alias watch:s="echo 'Watching /stylesheets/sass/*.scss and outputting to /stylesheets/*.css' && sass --watch stylesheets/sass:stylesheets" 
 
 # ruby/rails testing
 alias ccmb='clear && bundle exec rake cucumber'
