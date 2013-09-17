@@ -46,6 +46,7 @@ alias :q=' exit'
 alias :Q=' exit'
 alias :x=' exit'
 alias ..='cd ..'
+alias ...='cd ../..'
 
 # OS X VNC
 alias vnc='/System/Library/CoreServices/Screen\ Sharing.app/Contents/MacOS/Screen\ Sharing'
